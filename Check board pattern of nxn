@@ -1,1 +1,9 @@
+Print Check Board Pattern of nxn
 
+import numpy as np
+array = np.array([10, 20, 30, 40, 50])
+n = 8
+check_board = np.zeros((n, n), dtype=int)
+check_board[1::2, ::2] = 1
+check_board[::2, 1::2] = 1
+print("Check board pattern:\n", check_board)
