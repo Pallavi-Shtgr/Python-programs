@@ -1,1 +1,16 @@
 Select Any Row from DataFrame Using iloc and iat
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'A': [1, 2, 3],
+    'B': [4, 5, 6],
+    'C': [7, 8, 9]
+})
+
+row_iloc = df.iloc[1]
+element_iat = df.iat[1, 1]
+
+print("Row using iloc:\n", row_iloc)
+print("Element using iat:", element_iat)
+
