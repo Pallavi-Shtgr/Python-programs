@@ -1,1 +1,5 @@
+Convert Column Type from String to Datetime Format
 
+df['Date'] = ['2024-01-01', '2024-02-01', '2024-03-01']
+df['Date'] = pd.to_datetime(df['Date'])
+print("DataFrame with 'Date' column in datetime format:\n", df)
