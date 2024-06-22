@@ -1,6 +1,7 @@
+Compute Euclidean Distance Between Arrays
+
 array3 = np.array([1, 2, 3])
 array4 = np.array([4, 5, 6])
 euclidean_distance = np.linalg.norm(array3 - array4)
-
 print("Euclidean distance:", euclidean_distance)
 
